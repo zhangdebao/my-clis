@@ -1,0 +1,36 @@
+{
+  "name": "my-clis",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "my-clis",
+    "zce"
+  ],
+  "homepage": "https://github.com/my-clis/my-clis#readme",
+  "bugs": {
+    "url": "https://github.com/my-clis/my-clis/issues"
+  },
+  "license": "MIT",
+  "author": "zhangdebao <1127701327@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-clis/my-clis.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
